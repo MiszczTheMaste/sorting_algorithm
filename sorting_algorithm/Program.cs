@@ -39,7 +39,7 @@ namespace sorting_algorithm
             Console.ReadKey();
         }
 
-        static void SortList(List<double> nbrs, int list_size)
+        static void SortList(List<double> nbrs, int listSize)
         {
 
             int i, g, inc;
@@ -47,7 +47,7 @@ namespace sorting_algorithm
             inc = 3;
             while (inc > 0)
             {
-                for (i = 0; i < list_size; i++)
+                for (i = 0; i < listSize; i++)
                 {
                     g = i;
                     temp = nbrs[i];
